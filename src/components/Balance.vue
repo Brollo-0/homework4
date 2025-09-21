@@ -1,7 +1,7 @@
 <script setup>
     import {defineProps} from 'vue'
 
-    const props = definePorps({
+    const props = defineProps({
         total: {
             type: Number,
             require: true,
